@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Zoopla]">
+  <listeners>
+    <listener class-name="com.zoopla.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Zoopla Test chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.zoopla.testcases.TC_Searchforsale">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchlocation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.zoopla.testcases.TC_Searchforsale -->
+    </classes>
+  </test> <!-- Zoopla Test chrome(failed) -->
+  <test thread-count="5" name="Zoopla Test edge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.zoopla.testcases.TC_Searchforsale">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchlocation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.zoopla.testcases.TC_Searchforsale -->
+    </classes>
+  </test> <!-- Zoopla Test edge(failed) -->
+</suite> <!-- Failed suite [Zoopla] -->

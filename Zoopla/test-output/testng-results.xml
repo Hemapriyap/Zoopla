@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19418" started-at="2021-01-08T23:50:24Z" finished-at="2021-01-08T23:50:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19418" started-at="2021-01-08T23:50:24Z" finished-at="2021-01-08T23:50:43Z">
+      <class name="com.zoopla.testcases.TC_Searchforsale">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.testcases.TC_Searchforsale@11dc3715]" name="setup" is-config="true" duration-ms="7215" started-at="2021-01-08T23:50:24Z" finished-at="2021-01-08T23:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchlocation()[pri:0, instance:com.zoopla.testcases.TC_Searchforsale@11dc3715]" name="searchlocation" duration-ms="11474" started-at="2021-01-08T23:50:31Z" finished-at="2021-01-08T23:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchlocation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.zoopla.testcases.TC_Searchforsale@11dc3715]" name="teardown" is-config="true" duration-ms="681" started-at="2021-01-08T23:50:42Z" finished-at="2021-01-08T23:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.zoopla.testcases.TC_Searchforsale -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
